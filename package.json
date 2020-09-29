@@ -1,0 +1,31 @@
+{
+  "name": "qiandao-backend",
+  "version": "1.0.0",
+  "description": "qiandao app backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChangRiver/qiandao-backend.git"
+  },
+  "author": "Lriver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChangRiver/qiandao-backend/issues"
+  },
+  "homepage": "https://github.com/ChangRiver/qiandao-backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.10.7",
+    "mongoose-unique-validator": "^2.0.3",
+    "request": "^2.88.2"
+  }
+}
